@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.active-arrow {
+  color: #fc794d;
+}
+.disable-arrow {
+  color: #777777;
+}
+.disable-arrow:hover {
+  color: #777777;
+}
+.active-arrow:hover {
+  color: #fc3f00;
+}
+.page-item .active-page {
+  color: #fc3f00;
+}
